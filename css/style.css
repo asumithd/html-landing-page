@@ -1,0 +1,393 @@
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body {
+    background-color: #f8f7fc;
+}
+.innerbox {
+    display: flex;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    background-color: #c3b09c;
+    border-radius: 50%;
+    display: inline-block;
+}
+.navinner {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 10px 0 0 0;
+}
+.btn .btnmarz {
+    margin: 0;
+}
+.marz {
+    margin: 0;
+    padding-left: 10px;
+    color: #cccccc;
+}
+.logo > img {
+    height: 25px;
+    padding: 10px 0;
+}
+.micn {
+    font-size: 26px;
+    color: white;
+    padding: 6px 5px;
+    margin-left: 4px;
+}
+.poster {
+    background-image: url("/img/bg_2.png");
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+.ourdetails {
+    background-image: url("/img/backbg.png");
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+
+    flex-direction: column;
+}
+.topposter {
+    background-color: rgba(204, 204, 204, 1);
+    height: 350px;
+    justify-content: space-around;
+}
+.service {
+    background-color: #fff;
+    height: auto;
+    flex-direction: column;
+}
+.ads {
+    width: 55%;
+    background: rgba(195, 176, 156, 0.6);
+    margin-left: -14px;
+}
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    padding: 12px 28px;
+    cursor: pointer;
+}
+.btn {
+    border: none;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btnbr {
+    background-color: #c3b09c;
+    color: white;
+}
+.btnw {
+    background-color: white;
+    color: black;
+}
+.headtext {
+    padding-top: 25%;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.headtext > h4 {
+    margin: 0;
+    font-size: 15px;
+}
+.headtext > h5 {
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.padrfiv {
+    padding-right: 5px;
+}
+.posterinn {
+    padding-top: 10%;
+}
+.posterinn > h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+.posterinn > h5 {
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    margin: 12px 0;
+}
+
+.btnset {
+    display: flex;
+    justify-content: center;
+}
+.servicedetails {
+    display: block;
+    text-align: center;
+}
+.servicedetails > h3 {
+    margin: 20px 0 0;
+    font: caption;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.servicedetails > h5 {
+    font-size: 14px;
+    margin: 6px 0;
+    font-style: italic;
+    color: #e8a4a5;
+}
+.servicelist {
+    display: flex;
+    flex-direction: row;
+}
+.servicel,
+.servicer {
+    flex-basis: 38%;
+}
+.servicec {
+    flex-basis: 24%;
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.box > p {
+    color: #e8a4a5;
+}
+
+.br {
+    text-align: right;
+    margin: 0;
+}
+.bl {
+    text-align: left;
+    margin: 0;
+}
+.dotcircle {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.dotcircle > div {
+    background-color: #e8a4a5;
+    width: 78px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    height: 78px;
+    border-radius: 50%;
+}
+.icon > img {
+    width: 72%;
+}
+.cardtop > img {
+    width: 120px;
+}
+.detailhead {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+.cardinn {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.detailcard {
+    text-align: -webkit-center;
+    opacity: 0.5;
+}
+.oppone {
+    opacity: 1;
+}
+.cardbottom {
+    font-style: italic;
+}
+.listbody {
+    display: flex;
+    flex-direction: row;
+}
+.listbody .date {
+    background-color: #eae3d9;
+    text-align: center;
+    padding: 20px;
+}
+.bloglist {
+    display: flex;
+    padding: 30px 0;
+}
+.bloghead {
+    text-align: center;
+}
+.blog {
+    flex-direction: column;
+}
+.listhead > div {
+    margin-bottom: -4px;
+}
+.listhead > div > img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+.listcard {
+    padding: 0 8px;
+    width: 30%;
+}
+.panel a.active {
+    color: #e8a4a5;
+}
+.date > h2 {
+    font-size: 34px;
+    font-weight: bolder;
+    color: #c5b196;
+}
+.active {
+    color: #c5b196;
+}
+.date > h4 {
+    color: #bfb5ac;
+}
+
+.press {
+    padding: 10px;
+}
+.press > h5 {
+    padding: 0;
+    font-size: 18px;
+    margin: 33px 0 0 0;
+}
+.press > p {
+    color: #a0a0a0;
+}
+.newsletter {
+    height: 350px;
+    background-color: #161616;
+    flex-direction: column;
+}
+.neswinn {
+    text-align: center;
+    padding: 65px 0;
+}
+.neswinn > h1 {
+    color: white;
+}
+.neswinn > form > input {
+    border: 1px;
+    height: 38px;
+    width: 200px;
+}
+
+.neswinn > form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0 5px;
+    padding: 0 10px;
+    border-right: 1px solid;
+}
+.panel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: auto;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 22px;
+}
+
+.panel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.panel a:hover {
+    color: #f1f1f1;
+}
+
+.panel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #cccccc;
+    padding: 5px 10px;
+    border: none;
+}
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 576px) {
+    .servicedetails {
+        display: flex;
+        flex-direction: column;
+    }
+    .listbody {
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+    }
+    li {
+        border: 0;
+        margin: 5px 0;
+    }
+}
